@@ -119,9 +119,9 @@ body {
   justify-content: space-between;
 }
 
-.header-logo-link {
+/* .header-logo-link {
 
-}
+} */
 
 /* .header-nav {
 
@@ -168,6 +168,8 @@ body {
   text-decoration: none;
   background-color: #D23166;
 }
+
+/* HOME */
 
 .home-wrapper {
   display: flex;
@@ -242,4 +244,104 @@ body {
   width: 15rem;
   top: 17rem;
   left: 12rem;
+}
+
+/* ACCOUNT */
+
+.account {
+}
+
+.account-wrapper {
+  padding: 5rem 15rem;
+}
+
+.account-item {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 1rem;
+}
+
+.account-list {
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.3);
+  border-radius: 7px;
+  text-align: center;
+}
+
+
+.account-h1 {
+  font-family: Hind Madurai;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.account-p {
+  font-family: Hind Madurai;
+  font-size: 14px;
+}
+
+/* OATMEA */
+
+.oatmea {
+  background-color: #F8EDF0;
+  height: 100vh;
+}
+
+.oatmea-wrapper {
+
+}
+
+.oatmea-box {
+  display: flex;
+}
+
+.oatmea-left {
+  width: 350px;
+  padding-left: 15rem;
+  padding-right: 15rem;
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+
+.oatmea-heading {
+  margin-bottom: 16px;
+  font-family: Hind Madurai;
+  font-weight: 600;
+  font-size: 44.2px;
+  line-height: 49px;
+  color: #150101;
+}
+
+.oatmea-p {
+  margin-bottom: 35px;
+  font-family: Roboto;
+  font-size: 16px;
+  color: #150101;
+  line-height: 24px;
+  opacity: 0.6;
+}
+
+.oatmea-link {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 14px 50px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #FAFAFA;
+  background-color: #D23166;
+}
+
+.oatmea-right {
+  position: relative;
+}
+
+.ice-korzina {
+  position: absolute;
+}
+
+.krug-ploskiy {
+  position: absolute;
+  top: 500px;
+  left: 150px;
 }
